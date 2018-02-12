@@ -235,7 +235,7 @@ h5{
 /*Global styles
 ==============================================*/
 .section-padding{
-	padding: 100px 0px;
+	padding: 86px 0px;
 }
 p{
 	color: #919191;
@@ -376,7 +376,7 @@ h2.title p{
 
 .profile-bg {
     background-color: transparent;
-    background: url("../assets/images/reddress.jpg");
+    background: url("../assets/images/Jess_profile.jpg");
     position: absolute;
     background-clip: border-box;
     background-attachment: scroll;
