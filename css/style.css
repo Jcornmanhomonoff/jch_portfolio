@@ -522,7 +522,6 @@ h2.title p{
 ==================================================*/
 #section-testimonial{
 	background: #f2f2f1;
-	padding-bottom: 105px;
 }
 .carousel-indicators li {
     display: inline-block;
@@ -683,4 +682,15 @@ h2.title p{
 }
 .socail-link a:hover i{
 	color: #fff;
+}
+
+
+/* PERSONAL STYLING */
+.portfolio-box img:hover {
+	opacity: .5
+}
+
+.no-bottom-margin {
+	margin-bottom: 0;
+	padding-bottom: 0
 }
