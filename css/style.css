@@ -38,7 +38,6 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic,500italic);
 
@@ -151,11 +150,6 @@ body, p{
 	line-height: 30px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
-
-}
-
 h1{
     font-size: 36px;
     line-height: 48px;
@@ -235,7 +229,7 @@ h5{
 /*Global styles
 ==============================================*/
 .section-padding{
-	padding: 100px 0px;
+	padding: 86px 0px;
 }
 p{
 	color: #919191;
@@ -302,13 +296,11 @@ h2.title p{
 .section-menu{
 	z-index: 9999;
 }
-.navbar{}
 .navbar-default{
 	background: #252e30;
 	border: 0px;
 	border-radius: 0px;
 }
-.navbar-nav {}
 .navbar-nav li{
 	/*padding-right: 40px;*/
 }
@@ -358,7 +350,6 @@ h2.title p{
 #section-overview{
 	padding: 75px 0px 80px;
 }
-.overview-box{}
 .overview-box h3{
 	margin-bottom: 35px;
 }
@@ -376,7 +367,7 @@ h2.title p{
 
 .profile-bg {
     background-color: transparent;
-    background: url("../assets/images/reddress.jpg");
+    background: url("../assets/images/Jess_profile.jpg");
     position: absolute;
     background-clip: border-box;
     background-attachment: scroll;
@@ -391,14 +382,12 @@ h2.title p{
     width: 45%;
 }
 
-.profile-bg.img {
+.profile-bg.img{
 	height: 40%;
 }
 .profile-desc{
 	margin-bottom: 70px;
 	padding-left: 80px;
-}
-.profile-desc h2{
 }
 .service-wrapper{
 	padding-left: 80px;
@@ -481,7 +470,6 @@ h2.title p{
 	left: 48%;
 }
 
-.resume-inner{}
 .resume-inner{
 	width: 95%;
 }
@@ -522,7 +510,6 @@ h2.title p{
 ==================================================*/
 #section-testimonial{
 	background: #f2f2f1;
-	padding-bottom: 105px;
 }
 .carousel-indicators li {
     display: inline-block;
@@ -627,7 +614,6 @@ h2.title p{
 }
 .contact-left ul li span{
 	color: #fff;
-
 }
 
 .contact-box{
@@ -650,7 +636,6 @@ h2.title p{
 	color: white;
 }
 .contact-form .btn-default{
-
 	background: #191f21;
 	border: 0px;
 }
@@ -671,7 +656,6 @@ h2.title p{
 		margin-bottom: 30px;
 	}
 
-.socail-link{}
 .socail-link a i{
 	background: #4b5456;
 	width: 35px;
@@ -683,4 +667,37 @@ h2.title p{
 }
 .socail-link a:hover i{
 	color: #fff;
+}
+
+
+/* PERSONAL STYLING */
+
+.position-absolute {
+  position: absolute;
+  width: 100%;
+  top: 0;
+	height: 100%
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+  padding-bottom: 0
+}
+
+.project-title {
+  height: 0;
+  padding-top: 32%;
+  padding-bottom: 32%;
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+	color: #252e30;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.faded {
+	opacity: 0.5;
+	font: bold black;
 }
